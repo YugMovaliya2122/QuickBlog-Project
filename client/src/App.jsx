@@ -13,7 +13,7 @@ import Comments from './pages/admin/Comments.jsx'
 import Login from './components/admin/Login.jsx'
 import 'quill/dist/quill.snow.css' 
 import  {Toaster} from 'react-hot-toast'
-import { useAppcontext } from './context/AppContext.jsx'
+import { useAppcontext } from '../context/AppContext.jsx'
 
 
 
