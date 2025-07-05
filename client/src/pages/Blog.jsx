@@ -7,7 +7,6 @@ import moment from 'moment'
 import Loader from '../components/Loader'
 import { useAppcontext } from '../../context/AppContext'
 import toast from 'react-hot-toast'
-import DOMPurify from 'dompurify'
 
 const Blog = () => {
     const { id } = useParams()
