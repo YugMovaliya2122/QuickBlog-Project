@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'                  // Import React and useRef hook
 import { assets } from '../assets/assets'              // Import assets
-import { useAppcontext } from '../context/AppContext'  // Import your context
+import { useAppcontext } from '../../context/AppContext'; // Import your context
 
 const Header = () => {
     const { setInput, input } = useAppcontext();       // Destructure context values
