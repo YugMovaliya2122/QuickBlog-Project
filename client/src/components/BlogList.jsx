@@ -1,7 +1,7 @@
 import React from 'react'
 import { blogCategories ,blog_data} from '../assets/assets'
 import Card from './Card';
-import { useAppcontext } from '../context/AppContext';
+import { useAppcontext } from '../../context/AppContext';
 
 const BlogList = () => {
     const {blogs,input}=useAppcontext()
