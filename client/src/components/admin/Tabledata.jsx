@@ -1,6 +1,6 @@
 import React from 'react'
 import { assets } from '../../assets/assets';
-import { useAppcontext } from '../context/AppContext';
+import { useAppcontext } from '../../../context/AppContext';
 import toast from 'react-hot-toast';
 
 const Tabledata = ({blog,fetchBlogs,index}) => {

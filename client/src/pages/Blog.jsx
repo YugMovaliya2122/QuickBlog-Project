@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 import { assets } from '../assets/assets' 
 import moment from 'moment'
 import Loader from '../components/Loader'
-import { useAppcontext } from '../components/context/AppContext'
+import { useAppcontext } from '../../context/AppContext'
 import toast from 'react-hot-toast'
 import DOMPurify from 'dompurify'
 

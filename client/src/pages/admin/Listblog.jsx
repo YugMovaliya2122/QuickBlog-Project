@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { blog_data } from '../../assets/assets';
 import Tabledata from '../../components/admin/Tabledata'
-import { useAppcontext } from '../../components/context/AppContext';
+import { useAppcontext } from '../../../context/AppContext';
 
 const Listblog = () => {
     const [blogs,setBlogs] = React.useState([]);

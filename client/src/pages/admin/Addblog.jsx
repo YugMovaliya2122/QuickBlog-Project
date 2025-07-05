@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { assets, blogCategories } from '../../assets/assets';
 import Quill from 'quill';
 import 'quill/dist/quill.snow.css'; // ✅ Required for Quill to work
-import { useAppcontext } from '../../components/context/AppContext';
+import { useAppcontext } from '../../../context/AppContext';
 import toast, { Toaster } from 'react-hot-toast'; // ✅ Needed for toast notifications
 import {parse } from 'marked';
 

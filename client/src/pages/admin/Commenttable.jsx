@@ -1,6 +1,6 @@
 import React from 'react'
 import { assets } from '../../assets/assets';
-import { useAppcontext } from '../../components/context/AppContext';
+import { useAppcontext } from '../../../context/AppContext';
 
 const Commenttable = ({comment,fetchComments}) => {
     const {blog,createdAt,_id}=comment;

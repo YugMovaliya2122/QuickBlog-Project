@@ -1,7 +1,7 @@
 import React, { use } from 'react'
 import {assets} from '../assets/assets'
 import { useNavigate  } from 'react-router-dom'
-import { useAppcontext } from './context/AppContext'
+import { useAppcontext } from '../../context/AppContext'
 
 const Navbar = () => {
     const {navigate,token}=useAppcontext()

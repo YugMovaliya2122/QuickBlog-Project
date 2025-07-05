@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { assets ,dashboard_data} from '../../assets/assets'
 import Tabledata from '../../components/admin/Tabledata'
-import { useAppcontext } from '../../components/context/AppContext'
+import { useAppcontext } from '../../../context/AppContext'
 
 
 const Dashboard = () => {

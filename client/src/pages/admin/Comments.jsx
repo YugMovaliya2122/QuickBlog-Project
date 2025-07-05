@@ -2,7 +2,7 @@ import React, { use } from 'react'
 import { comments_data } from '../../assets/assets';
 import { useEffect } from 'react';
 import Commenttable from './Commenttable'
-import { useAppcontext } from '../../components/context/AppContext';
+import { useAppcontext } from '../../../context/AppContext';
 
 const Comments = () => {
     const [comments, setComments] = React.useState([]);
