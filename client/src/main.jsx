@@ -28,9 +28,9 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
-import { useAppcontext } from './context/AppContext.jsx'
+import { useAppcontext } from '../context/AppContext.jsx'
 
-import { AppProvider } from '.context/AppContext.jsx' 
+import { AppProvider } from '../context/AppContext.jsx' 
 
 //this is for routing 
 //like js 
