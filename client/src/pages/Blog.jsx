@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 import { assets } from '../assets/assets' 
 import moment from 'moment'
 import Loader from '../components/Loader'
